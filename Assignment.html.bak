@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Oh boy its dogs</title>
+		<meta charset="utf-8">
+	</head>
+	<nav>
+		<a href="assignment.html">home</a>
+		<a href="doglink.html">video</a>
+		<a href="handsome.jpg">picture</a>
+	</nav>
+	
+	<body>
+	
+		<p>
+			<h1> This is a page about dogs </h1>
+			<main>
+			<h3> Do you like dogs? </h3>
+			<h6> I do. </h6>
+			<img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg">
+			<br>
+			<a href="handsome.jpg">This is an implcit link to a dog!</a>
+			<blockquote>
+			I literally cannot stop thinking about dogs.
+			</blockquote>
+			
+			<embed 
+				type="video/webm" 
+				src="https://www.youtube.com/watch?v=rOqUiXhECos" 
+				width="400" 
+				height="300"
+			>
+			</main>
+		</p>
+		<footer> Here's a lil footer </footer>
+	</body>
+</html>
