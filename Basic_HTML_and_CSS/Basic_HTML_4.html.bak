@@ -1,0 +1,22 @@
+<<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Stuff 4</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<style>
+	.font_1 {
+		background-color: black;
+		color: yellow;
+		font-size: large;
+	}
+	.font_2 {
+		background-color: darkblue;
+		color: white;
+		font-size: medium;
+	}
+		<h1> This page is all about practicing HTML and CSS. </h1>
+			<p>This sentence should be purple and in the middle.</p>
+	</body>
+</html>

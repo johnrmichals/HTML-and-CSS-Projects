@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Javascript Stuff 2</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<p> This place <b>is</b> <font color="red" face="Impact" size="4"> dangerous! </font></p>
+	<br>
+	<img src = "https://tv-fanatic-res.cloudinary.com/iu/s--ve0CbH8T--/f_auto,q_auto/v1535378118/a-spook-door" alt="Spooky Door" width="400" height="600">
+	<p><font color="#891E1E" face="Roboto" size="7" >Open the door if you dare!</font></p>
+		<button onclick="My_First_Function()">
+			<i><u>Open the door! </i></u>
+		</button>
+		<p id="Irish"></p>
+		<script src="Basic_JavaScript_1.js"> </script>
+	</body>
+</html>

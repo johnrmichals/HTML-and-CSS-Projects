@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Stuff 3</title>
+		<meta charset="utf-8">
+	</head>
+	<link rel="stylesheet" type="text/css" href "Basic_CSS_1.css">
+	<body>
+	<link rel="stylesheet" type="text/css" href "Basic_CSS_1.css">
+		<h1> This page is all about practicing HTML and CSS. </h1>
+			<p>This sentence should be purple.</p>
+	</body>
+</html>
