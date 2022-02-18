@@ -1,165 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Welcome</title>
-		<link rel="icon" type="image/x-icon" href=".\images\favicons\favicon-32x32.png">
+		<title>Welcome to the Cosmos</title>
 		<meta charset="utf-8">
-	</head>
-	<!-- nav suite-->
-	<div>
-		<div>
-			<ul>
-				<a href="#home" id="link"><li>HOME</li></a>
-				<a href="#gallery" id="link"><li>GALLERY</li></a>
-				<a href="#application" id="link"><li>APPLY TO PLAY!</li></a>
-			</ul>
-		</div>
-	</div>
-	<!--HOME-->
-	<div id="home">
-	<!-- header -->	
-	<header>
-		<span><h1>Welcome to the Glade</h1></span>
-	</header>
-	<!--Gallery-->
-	<section>
-		<div id="gallery">
-			<h1>Gallery</h1>
-			<div>
-				<!--photo container 1-->
-				<div>
-					<div>
-					<img src="./images/thumb/valheim1.jpg" alt="castle">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-				<!--photo container 2-->
-				<div>
-					<div>
-					<img src="./images/thumb/valheim2.jpg" alt="field">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-					<!--photo container 3-->
-				<div>
-					<div>
-					<img src="./images/thumb/valheim3.jpg" alt="mountain">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-				<!--photo container 4-->
-				<div>
-					<div>
-					<img src="./images/thumb/valheim4.jpg" alt="troll">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-				<!--photo container 5-->
-				<div>
-					<div>
-						<img src="./images/thumb/valheim5.jpg" alt="elder">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-				<!--photo container 6-->
-				<div>
-					<div>
-					<img src="./images/thumb/valheim6.jpg" alt="shore">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->	
-				<!--photo container 7-->
-				<div>
-					<div>
-					<img src="./images/thumb/cosmos1.jpg" alt="b">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-				<!--photo container 8-->
-				<div>
-					<div>
-					<img src="./images/thumb/cosmos2.jpg" alt="farm">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
-				<!--photo container 9-->
-				<div>
-					<div>
-					<img src="./images/thumb/cosmos3.png" alt="jays house">
-						<div>
-							<h3>Click to Enlarge</h3>
-							<p>Take a look at our scenic outposts</p>
-						</div>
-					</div>
-				</div>
-				<!--end photo container-->
+		<link rel="stylesheet" href=".css/shared.css">
+		<link rel="stylesheet" href=".css/animations.css">
+        <link rel="stylesheet" href=".css/menu_rollover.css">
+ 	</head>
+	<body>
+		<!--NAV -->
+		<div class="wrap">
+			<div class="menu-container">
+				<div class="menu">
+                    <ul>
+					    <a href="#home"><li>HOME</li></a>
+                        <a href="#gallery"><li>GALLERY</li></a>
+                        <a href="#register"><li>COME PLAY</li></a>
+                    </ul>
+                </div>        
 			</div>
 		</div>
-	</section>
-	<!--END Gallery-->
-	<!--RSVP-->
-	<section>
-		<div id="application">
-			<div>
-				<h1>Applications</h1>
-				<div>
-					<h2><span>Why struggle and die alone...<br>
-					when you can struggle and die <em>among friends!</em>
-					</span></h2>
-					<p> Please provide us with the following information: </p>
-					<div>
-						<form action="" method="post">
-							<input class="application" type="text" value="Name">
-							<input class="application" type="text" value="Email Address">
-							<input class="application" type="text" value="Steam Account">
-							<input class="application" type="text" value="What Gives?">
-							<div class="form-spacer">
-								<label class="terms">Terms and Conditions</label>
-							</div>
-							<div>
-								<input type="submit" value="Submit">
-							</div>
-						</form>
-					</div>
+		<!--HOME -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">COSMOS GAMING</span>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!--END APPLICATION-->
-	<!--footer-->
-	<footer>
-		OneCosmos
-	</footer>
+		<!--GALLERY -->
+		<section id="gallery">
+            <div class="container">
+                <h1>
+                    Gallery
+                </h1>
+                <div class="flex-container">
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim1.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim2.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim3.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim4.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim5.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim6.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim7.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/valheim8.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            <!--PHOTO CONTAINER-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./images/Thumb/cosmos1.jpg" alt="">
+                    <div class="photo-overlay">
+                        <h3>click to enlarge</h3>
+                        <p>BIG ADVENTURE AROUND EVERY CORNER</p>
+                    </div>
+                </div>
+            </div>
+            <!--END PHOTO CONTAINER-->
+            </div>
+        </div>
+
+		</section>
+		<!--registration -->
+		<section id="register">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Dare you raise your spear against the elements?</h1>
+                    <div class="registration">
+                        <h2><span>Violence is more fun amongst friends.</span>
+                            <br/>Hit us up!
+                        </h2>
+                        <p class="rsvp-text">
+                            Please provide us with some contact info.
+                        </p>
+                        <div class="form-rsvp">
+                            <form action="" method="post">
+                                <input class="rsvp" type="text" value="" placeholder="Name">
+                                <input class="rsvp" type="text" value="" placeholder="Pronouns">
+                                <input class="rsvp" type="text" value="" placeholder="Discord">
+                                <input class="rsvp" type="text" value="" placeholder="Steam Account">
+                                <div class="form-spacer">
+                                    <label class="terms">
+                                        Terms and Conditions
+                                    </label>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+		</section>
+		<!--FOOTER -->
+		<footer id="footer">
+            <div>
+                www.cosmosvalheim.com &nbsp;|&nbsp; ###-###-####
+            </div>
+		</footer>
+	</body>
 </html>
