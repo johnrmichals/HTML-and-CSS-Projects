@@ -19,3 +19,18 @@ img {
     margin: 4px;
     float: left;
 }
+.gallery {
+    border:2px yellow;
+    align-items: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+iframe {
+    margin:25px;
+}
+footer {
+    font-size: x-small;
+}
