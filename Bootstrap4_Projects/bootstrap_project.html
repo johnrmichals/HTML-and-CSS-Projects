@@ -12,15 +12,15 @@
   </head>
   <body>
 <!--NAV BAR-->
-    <div class="container">
+    <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">   
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-light" href="#home">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Disagreements</a>
+                  <a class="nav-link text-light" href="#disagreements">Disagreements</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -29,7 +29,7 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Not a chance</a>
                     <a class="dropdown-item" href="#">Hit the road, buster</a>
-                    <a class="dropdown-item" href="#">Appointments</a>
+                    <a class="dropdown-item" href="#contact-form">Contact Us</a>
                   </div>
                 </li>
               </ul>
@@ -77,6 +77,64 @@
     </div>
   </div>
   <!--END CARD DISPLAY-->
+  <!--DISAGREEMENTS-->
+  <div id="disagreements">
+    <div class="card">
+        <img height="100%" width="100%" src="./images/problem5.jpeg" alt="">
+        <div class="card-img-overlay text-xl-right">
+          <h1 class="text-light">Quality Struggles</h1>
+          <h4 class="text-light">We have a wide range of available conflicts:</h4>
+          <h6 class="text-light">tiffs<br>kerfuffles<br>clashes<br>struggles<br>strifes<br>wars<br><em>...and more!</em></h6>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+      <!--END DISAGREEMENTS-->
+  <section class="container mb-4">
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Think we suck?</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">We want to hear it. Our team will get back to you when they feel like it.</p>
+    <div class="row">
+        <!--Grid column-->
+        <div class="container col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your whiny little message</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary text-light" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+    </div>
+</section>
+<!--Section: Contact-->
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -84,4 +142,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+  <footer class="bg-primary">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active text-light" href="#">Don't You Dare Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">###-###-####</a>
+      </li>
+    </ul>
+  </footer>
 </html>
